@@ -29,6 +29,18 @@ public class inoutActivity extends AppCompatActivity {
                 output.setText("子曰：Just do it");
             }
         });
+        btn_function1.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                
+            }
+        });
+        btn_function2.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
 
     }
 }

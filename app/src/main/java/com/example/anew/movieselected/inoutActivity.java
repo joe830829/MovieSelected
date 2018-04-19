@@ -1,5 +1,6 @@
 package com.example.anew.movieselected;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -32,7 +33,8 @@ public class inoutActivity extends AppCompatActivity {
         btn_function1.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+                Intent it = new Intent(getApplication(),PlusActivity.class);
+                startActivity(it);
             }
         });
         btn_function2.setOnClickListener(new Button.OnClickListener() {

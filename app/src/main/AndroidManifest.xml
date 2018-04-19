@@ -18,7 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".inoutActivity"></activity>
+        <activity android:name=".inoutActivity" />
+        <activity android:name=".PlusActivity"></activity>
     </application>
 
 </manifest>

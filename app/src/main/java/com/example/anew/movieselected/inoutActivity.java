@@ -40,7 +40,8 @@ public class inoutActivity extends AppCompatActivity {
         btn_function2.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent it = new Intent(getApplication(),ListviewActivity.class);
+                startActivity(it);
             }
         });
 

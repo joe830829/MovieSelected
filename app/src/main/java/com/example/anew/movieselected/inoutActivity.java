@@ -20,6 +20,11 @@ public class inoutActivity extends AppCompatActivity {
         btn_output.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
+                output.setText("function1");
+
+
+
+
                 
             }
         });

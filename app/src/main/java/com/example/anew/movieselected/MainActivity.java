@@ -30,7 +30,7 @@ import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
 public class MainActivity extends AppCompatActivity {
     ImageView image ;
     VideoView video;
-    Button button;
+    Button button,button2;
 
     int permission;
 
@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         image = (ImageView)findViewById(R.id.imageView);
         video = (VideoView)findViewById(R.id.videoView);
         button = (Button)findViewById(R.id.button);
+        button2 = (Button)findViewById(R.id.button2);
 
         permission = ActivityCompat.checkSelfPermission(this, READ_EXTERNAL_STORAGE);
 
@@ -67,6 +68,12 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent (Intent.ACTION_PICK, MediaStore.Video.Media.EXTERNAL_CONTENT_URI);
                     startActivityForResult(intent ,1);
                 }
+            }
+        });
+        button2.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                
             }
         });
 

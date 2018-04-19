@@ -16,6 +16,11 @@ public class inoutActivity extends AppCompatActivity {
 
         output = (TextView)findViewById(R.id.output);
         btn_output = (Button)findViewById(R.id.btn_output);
+        btn_function1 = (Button)findViewById(R.id.btn_function1);
+
+
+
+        btn_function2 = (Button)findViewById(R.id.btn_function2);
 
 
         btn_output.setOnClickListener(new Button.OnClickListener() {
